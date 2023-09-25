@@ -1,0 +1,16 @@
+{
+    "en": {
+        "confirmation_button_text": [
+            "yes"
+        ],
+        "cat_photos_request": [
+            "Would you like to see some kittens?"
+        ],
+        "help_text": [
+            "Hi there! I'm your personal assistant fot cute cat pictures.\n Use /cats to see some cat photos!"
+        ],
+        "how_many_cats": [
+            "How many cats would you like to see?"
+        ]
+    }
+}

@@ -9,8 +9,14 @@
         "help_text": [
             "Hi there! I'm your personal assistant fot cute cat pictures.\n Use /cats to see some cat photos!"
         ],
-        "how_many_cats": [
-            "How many cats would you like to see?"
+        "flood_notification_text": [
+            "Only allow one request at a time!"
+        ],
+        "image_request_error_text": [
+            "Sorry, an error occurred while processing your request. Please try again later."
+        ],
+        "processing_text": [
+            "Processing your request. Please wait..."
         ]
     }
 }

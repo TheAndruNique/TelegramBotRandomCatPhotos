@@ -20,9 +20,6 @@ if len(missing_values) > 0:
 with open("translations.json", "r", encoding="utf-8") as f:
     translations = json.load(f)
 
-if not os.path.exists("last_cat_photo"):
-    os.makedirs("last_cat_photo")
-
 def localized_text(key, bot_language):
     try:
         text = translations[bot_language][key]
@@ -49,5 +46,5 @@ def random_cat_photo():
         cat_url_img = soup.find_all("img")[1].get("src")
         return cat_url_img
     except:
-        return random_cat_photo()
+        return None
         
